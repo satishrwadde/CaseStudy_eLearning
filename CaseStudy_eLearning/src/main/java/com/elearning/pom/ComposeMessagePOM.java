@@ -78,10 +78,9 @@ public class ComposeMessagePOM extends GetConnection {
 	}
 	
 	public static void sendMessage() {
-		
+		Sleep.sleepSeconds(15);
 		String val=Utils.getTestMessageFromDB();
 		System.out.println("*************  In type_message_to_sent  ***********"+val);
-		Sleep.sleepSeconds(5);
         driver.switchTo().frame(0);
         System.out.println("***** Inside frame!");
         Sleep.sleepSeconds(10); 

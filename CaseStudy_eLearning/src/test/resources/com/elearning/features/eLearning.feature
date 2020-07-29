@@ -20,8 +20,8 @@ Feature: Registration on eLearning
     And Validate email on success page
 
     Examples: 
-      | language | purpose        | fname   | lname    | email                   | username  | pass      | phone      | code | skypeid | linkedinUrl                                          |
-      | English  | Follow courses | Riyazzz | Rehmanzz | rehmanRiyazzz@gmail.com | riyazzzre | riyazzzre | 2018397218 | 1234 | rutvik9 | https://www.linkedin.com/in/rutvik-budgule-084b7814/ |
+      | language | purpose       | fname  | lname | email                | username  | pass      | phone      | code | skypeid  | linkedinUrl                           |
+      | English  | Teach courses | Satish | Wadde | satwadde11@us.ibm.com | satwadde11 | satwadde11 | 2018397218 | 1234 | satwadde | https://www.linkedin.com/in/satwadde/ |
 
   @signinEmailVal
   Scenario Outline: SignIn & Email validation
