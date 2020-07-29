@@ -17,7 +17,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				"html:target/cucumber-html-report" , 
 				"json:target/cucumber-json-report",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
-//		,tags = {"@signinEmailVal"}
+		,tags = {"@signinEmailVal"}
 	)
 
 public class E_learning_TestRunner extends AbstractTestNGCucumberTests {
