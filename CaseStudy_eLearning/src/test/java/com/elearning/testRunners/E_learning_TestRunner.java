@@ -16,7 +16,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		plugin= {"pretty",
 				"html:target/cucumber-html-report" , 
 				"json:target/cucumber-json-report",
-				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
+				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/extendedReport.html"}
 //		,tags = {"@signinEmailVal"}
 	)
 

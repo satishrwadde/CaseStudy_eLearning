@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="164437" started-at="2020-07-28T15:46:36Z" finished-at="2020-07-28T15:49:20Z">
+  <suite name="Suite" duration-ms="145071" started-at="2020-07-29T14:21:00Z" finished-at="2020-07-29T14:23:25Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@4883b407]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@42e26948]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="164437" started-at="2020-07-28T15:46:36Z" finished-at="2020-07-28T15:49:20Z">
+    <test name="Test" duration-ms="145071" started-at="2020-07-29T14:21:00Z" finished-at="2020-07-29T14:23:25Z">
       <class name="com.elearning.testRunners.E_learning_TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@4883b407]" name="setUpClass" is-config="true" duration-ms="221" started-at="2020-07-28T21:16:36Z" finished-at="2020-07-28T21:16:36Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@42e26948]" name="setUpClass" is-config="true" duration-ms="186" started-at="2020-07-29T19:51:00Z" finished-at="2020-07-29T19:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@4883b407]" name="feature" duration-ms="163800" started-at="2020-07-28T21:16:36Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-28T21:19:20Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@42e26948]" name="feature" duration-ms="144495" started-at="2020-07-29T19:51:00Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-29T19:53:24Z">
           <params>
             <param index="0">
               <value>
@@ -30,8 +30,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SATWADDE', ip: '192.168.43.229', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 130db10c2806d6beda097b9803fb1867
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 50609568125f3c69b4ea643cfbfbe55f
 *** Element info: {Using=xpath, value=/html/body/main/section/div/div[2]/div/p[1]}]]>
             </message>
             <full-stacktrace>
@@ -41,8 +41,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SATWADDE', ip: '192.168.43.229', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 130db10c2806d6beda097b9803fb1867
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 50609568125f3c69b4ea643cfbfbe55f
 *** Element info: {Using=xpath, value=/html/body/main/section/div/div[2]/div/p[1]}
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
@@ -76,8 +76,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SATWADDE', ip: '192.168.43.229', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 130db10c2806d6beda097b9803fb1867
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SATISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 50609568125f3c69b4ea643cfbfbe55f
 *** Element info: {Using=xpath, value=/html/body/main/section/div/div[2]/div/p[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -102,11 +102,11 @@ Session ID: 130db10c2806d6beda097b9803fb1867
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@4883b407]" name="writeExtentReport" is-config="true" duration-ms="27" started-at="2020-07-28T21:19:20Z" finished-at="2020-07-28T21:19:20Z">
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@42e26948]" name="writeExtentReport" is-config="true" duration-ms="22" started-at="2020-07-29T19:53:24Z" finished-at="2020-07-29T19:53:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@4883b407]" name="tearDownClass" is-config="true" duration-ms="267" started-at="2020-07-28T21:19:20Z" finished-at="2020-07-28T21:19:20Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.elearning.testRunners.E_learning_TestRunner@42e26948]" name="tearDownClass" is-config="true" duration-ms="285" started-at="2020-07-29T19:53:25Z" finished-at="2020-07-29T19:53:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

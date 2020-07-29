@@ -6,10 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import com.elearning.utils.GetConnection;
 import com.elearning.utils.Sleep;
 import com.elearning.utils.Utils;
 
-public class ComposeMessagePOM {
+public class ComposeMessagePOM extends GetConnection {
 	
 	private static WebDriver driver=null;
 	private static String receiver,sendToString=null;
@@ -78,18 +79,20 @@ public class ComposeMessagePOM {
 	
 	public static void sendMessage() {
 		
-		System.out.println("*************  In type_message_to_sent  ***********");
+		String val=Utils.getTestMessageFromDB();
+		System.out.println("*************  In type_message_to_sent  ***********"+val);
 		Sleep.sleepSeconds(5);
         driver.switchTo().frame(0);
         System.out.println("***** Inside frame!");
         Sleep.sleepSeconds(10); 
-        driver.findElement(By.xpath("/html/body")).sendKeys("Hello "+receiver+ " \n" + "    This is for TestMail \n" + "\n" + "Thanks & Regards,"+ "\n"+ "Satish Wadde");
+        driver.findElement(By.xpath("/html/body")).sendKeys("Hello "+receiver+ " \n" + val +" \n" + "\n" + "Thanks & Regards,"+ "\n"+ "Satish Wadde");
         Sleep.sleepSeconds(5);
         driver.switchTo().defaultContent();
         Sleep.sleepSeconds(5);
 
 	}
 	
+
 	public static void sendAttachment(String filePath) {
 		
 		System.out.println("******* In upload_file_as_attachment()  ****** ");

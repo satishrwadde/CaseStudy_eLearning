@@ -1,5 +1,9 @@
 package com.elearning.utils;
 
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Utils {
 
 	
@@ -12,11 +16,30 @@ public class Utils {
 		
 	}
 	
+	public static String getTestMessageFromDB(){
+		String sql ="select * from message where message_id='1'"; 
+		
+		String msgString=null;
+		GetConnection gc = new GetConnection(); 
+		
+		try {
+			gc.ps1 = GetConnection.getMySQLConnection().prepareStatement(sql);
+			gc.rs = gc.ps1.executeQuery(); 
+			
+				while(gc.rs.next()) {
+					msgString=gc.rs.getString("msg_contents");
+				}
+			}catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return msgString; 
+	}
+
 
 	
 	public static void main(String[] args) {
 		
-//		FirstLetterCaps();
-		//removeX("xSatish r wadde");
+		System.out.println("DB Message :"+ getTestMessageFromDB());
 	}
 }
