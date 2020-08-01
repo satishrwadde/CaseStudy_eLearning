@@ -21,7 +21,7 @@ Feature: Registration on eLearning
 
     Examples: 
       | language | purpose       | fname  | lname | email                 | username   | pass       | phone      | code | skypeid  | linkedinUrl                           |
-      | English  | Teach courses | Satish | Wadde | satwadde12@us.ibm.com | satwadde12 | satwadde12 | 2018397218 | 1234 | satwadde | https://www.linkedin.com/in/satwadde/ |
+      | English  | Teach courses | Satish | Wadde | satwadde777@us.ibm.com | satwadde777 | satwadde777 | 2018397218 | 1234 | satishwadde | https://www.linkedin.com/in/satishwadde/ |
 
   @signinEmailVal
   Scenario Outline: SignIn & Email validation
