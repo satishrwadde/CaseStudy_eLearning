@@ -48,7 +48,7 @@ public class Hooks {
   public void tearDown() {
 	  
 	  System.out.println("Before quitting browser : ");
-	  Sleep.sleepSeconds(10);
+	  Sleep.sleepSeconds(1);
 	  driver.quit();
   }
 
